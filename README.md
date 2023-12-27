@@ -68,6 +68,14 @@ $ git clone https://github.com/chandramouli224/image_classification
 # Access
 $ cd image_classification
 
+# Create Virtual Environment
+$ python -m venv venv
+
+# Activate virtual Environment
+$ .\venv\Scripts\activate
+
+# Install Dependencies
+$ pip install -r requirements.txt
 
 # Run the project
 $ python src/train.py
