@@ -41,6 +41,7 @@ if __name__ == "__main__":
     # model = get_model_alexnet(pretrained=True)
 
     # lets fetch resnet18 model
+    # AUC is 0.8613 which is pretty good with CPU and AUC is 0.8589 with cuda core.
     model = get_model_resnet(pretrained=True)
 
     # move model to device
